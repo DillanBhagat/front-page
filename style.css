@@ -1,0 +1,6 @@
+/* positions the page from top to bottom */
+body {
+    display: flex;
+    flex-direction: column;
+}
+
