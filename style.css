@@ -5,31 +5,38 @@
 body {
     display: flex;
     flex-direction: column;
-    margin: 0;
+    margin: auto;
     padding: 0;
     background-color: #1F2937;
     font-family: Roboto, serif;
     color: #F9FAF8;
-    margin: auto;
     width: 50%;
     border: 3px solid white;
-    min-height: 100vh;
+    height: 100%;
 }
-
+/*First section */
 .navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
     border: 3px solid lawngreen;
-}
- 
-.logo, .leftside {
-    padding: 0px 16px;
+    padding-bottom: 60px;
 }
 
-a {
-    color:#F9FAF8;
+.logo, .leftside {
+    padding: 0px 16px;
+} 
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+a, .text {
+    color: #E5E7EB;
     text-decoration: none;
+    font-size: 18px;
 }
 
 ul {
@@ -38,15 +45,40 @@ ul {
     gap: 16px
 }
 
+/* Second section */
 .second {
     display: flex;
-    align-items: center;
+    border: 3px solid pink;
+    padding-bottom: 60px;
 }
 
 .main {
     border: 3px solid pink;
     flex-wrap: wrap;
     width: 50%;
+    align-self: stretch;
+    padding: 0 16px;
+}
+
+.maintitle {
+    font-size: 48px;
+    font-weight:bolder;
+    margin: 0;
+}
+
+.text {
+    margin: 0;
+}
+
+.signup {
+    border: none;
+    border-radius: 8px;
+    background-color: #3882f6;
+    color: #F9FAF8;
+    font-weight: bold;
+    width:100px;
+    height: 30px;
+    margin-top: 10px;
 }
 
 .box {
@@ -54,18 +86,27 @@ ul {
     flex: 1;
     align-self: stretch;
     text-align: center;
-    padding: 70px;
+    line-height: 200px;
+    background-color: rgba(128, 128, 128, 0.603);
+    
 }
+
+/*Third Section */
 
 .third {
     display: flex;
     flex-direction: column;
     align-items: center;
     border: 3px solid rgb(0, 217, 255);
+    background-color: white;
 }
 
 .title {
     border: 3px solid red;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bolder;
+    margin: 20px 0;
 }
 
 .imgfour {
@@ -88,6 +129,7 @@ ul {
     height: 150px;
 
 }
+/*fourth section*/
 
 .fourth {
     display: flex;
